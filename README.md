@@ -9,6 +9,10 @@ https://paddlepaddle.github.io/PaddleOCR/main/ppstructure/overview.html#1
 剥离自本人正在开发的开源项目 NBCapture。
 Table.cpp 为运行测试demo，需要注意的是 Table.cpp尚未和 NBCapture解耦，不能直接编译，仅供参考。
 
+输入为 BGR 格式的图片，输出为表格中的 html 格式（如果要识别文本，请结合OCR使用）。
+
+模型落地转换过程较为复杂，难以以短篇幅书面描述，如有兴趣者请联系作者。
+
 关于 NBCapture
 
 NBCapture 是本人正在开发的一款截图软件，具有一系列相当前卫的特性（和较差的兼容性）和前所未有的功能。由于本人学业繁忙，欢迎开发爱好者和我一道进行开发。
